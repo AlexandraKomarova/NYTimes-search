@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.page {
+    width: 80%;
+    height: 90vh;
+   
+    margin: 4% auto;
+}
+
+header {
+    display: grid;
+    background-color: #1c1350;
+    height: 25%;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+}
+
+main {
+    margin: 5% 1%;
+}
+
+.parameters {
+    background-color: #eee;
+    padding: 2%;
+}

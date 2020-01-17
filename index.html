@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NYTimes Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page">
+        <header>
+            <h1>New York Times Search</h1>
+        </header>
+        <main>
+            <div class="parameters">Search Parameters</div>
+            <div class="input-fields">
+                <div class="search-term">
+                    <div class="parameter">Search Term: </div>
+                    <input type="text" id="search">
+                </div>
+                <div class="search-term">
+                    <div class="parameter">Number of Records to Retrieve: </div>
+                    <input type="text" id="number">
+                </div>
+                <div class="search-term">
+                    <div class="parameter">Start Year: </div>
+                    <input type="text" id="start-year">
+                </div>
+                <div class="search-term">
+                    <div class="parameter">End Year: </div>
+                    <input type="text" id="end-year">
+                </div>
+                <button id="search">Search</button>
+                <button id="clear">Clear Results</button>
+            </div>
+        </main>
+        <article>
+            <div class="top-artciles">Top Articles</div>
+            <div class="artcile-content">Article Content</div>
+        </article>
+    </div>
     <script src="script.js"></script>
-    <div></div>
 </body>
 </html>
